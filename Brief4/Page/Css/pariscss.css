@@ -263,10 +263,25 @@ span.price {
     font-size: 14px;
 }
 
+
+
+.w3-content{
+
+max-width: 455px;
+max-height: 313px;
+margin-left: 30%;
+padding: 17px;
   
 
-
-
+}
+.w3-content img{
+    border-radius: 9px;
+}
+h5{
+    text-align: center;
+    font-size: 52px;
+    color: #EFD6AC;
+}
 
 
 

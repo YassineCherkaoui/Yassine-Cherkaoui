@@ -12,6 +12,7 @@ header{
     font-family: sans-serif;
     height: 500px;
 }
+
 .containner{
     display: flex;
     flex-direction: row;
