@@ -36,3 +36,12 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+//calendar 
+function processData(f1,f2,f3,f4,f5,f6){
+	var v1 = document.getElementById(f1).value;
+	alert(v1+"there is no hotel's avalabel in this date");
+	
+}
+
+

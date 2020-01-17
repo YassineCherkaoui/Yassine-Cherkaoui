@@ -286,6 +286,29 @@ h5{
 
 
 
+#field1{
+    margin-left: 30px;
+    padding: 0px 12px;
+}
+
+.btnnn{
+    color: white;
+    padding: 15px 32px;
+    background-color: #EFD6AC;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.marg{
+    margin-left: 43px;
+    padding: 0px 12px;
+}
+
+
+
+
 
 
 /* media */
