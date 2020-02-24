@@ -207,8 +207,8 @@ label{
     margin-left: 900px;
   }
   .btnn:hover{
-    background-color: green;
-    color: black;
+    background-color: black;
+    color: white;
   }
   .hh1{
     text-align: left;

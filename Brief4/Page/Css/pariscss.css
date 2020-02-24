@@ -100,10 +100,7 @@ transition-duration: 400ms;
   }
   
   .row {
-     
     display: flex;
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap;
     padding: 0 4px;
     justify-content: center;
   }
@@ -113,8 +110,6 @@ transition-duration: 400ms;
   
   
   .column {
-    -ms-flex: 25%; 
-    flex: 25%;
     max-width: 25%;
     padding: 0 4px;
   }
@@ -265,7 +260,7 @@ span.price {
 
 
 
-.w3-content{
+.content{
 
 max-width: 455px;
 max-height: 313px;
@@ -274,7 +269,7 @@ padding: 17px;
   
 
 }
-.w3-content img{
+.content img{
     border-radius: 9px;
 }
 h5{
@@ -304,6 +299,10 @@ h5{
 .marg{
     margin-left: 43px;
     padding: 0px 12px;
+}
+.blink{
+    margin: 25px;
+    position: relative;
 }
 
 

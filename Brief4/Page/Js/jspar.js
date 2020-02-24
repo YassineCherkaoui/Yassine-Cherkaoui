@@ -1,13 +1,8 @@
 
-
-
-
-
-
 var myIndex = 0;
-carousel();
+Slide();
 
-function carousel() {
+function Slide() {
   var i;
   var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
@@ -16,13 +11,13 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); 
+  setTimeout(Slide, 2000); 
 }
 
 //calendar 
 function processData(f1){
 	var v1 = document.getElementById(f1).value;
-	alert(v1+"there is no hotel's avalabel in this date");
+    alert(v1+" There is no Hotel's Available in this Date");
 	
 }
 
